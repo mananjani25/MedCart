@@ -1,0 +1,559 @@
+/* OrderSummarySidebar Component Styles */
+
+.sidebar {
+  width: 100%;
+  background-color: white;
+}
+
+@media (min-width: 768px) {
+  .sidebar {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .sidebar {
+    width: 24rem;
+    display: block;
+  }
+}
+
+.content {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .content {
+    flex: 1;
+    overflow-y: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .content {
+    overflow: visible;
+  }
+}
+
+.section {
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 1.5rem;
+}
+
+.section:last-of-type {
+  border-bottom: none;
+}
+
+.sectionTitle {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #374151;
+  margin-bottom: 0.75rem;
+}
+
+@media (min-width: 768px) {
+  .sectionTitle {
+    font-size: 0.875rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .sectionTitle {
+    font-size: 1rem;
+  }
+}
+
+.sectionTitleBlack {
+  font-size: 1rem;
+  font-weight: 600;
+  color: black;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  .sectionTitleBlack {
+    font-size: 0.875rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .sectionTitleBlack {
+    font-size: 1rem;
+  }
+}
+
+.addressInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .addressInfo {
+    gap: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .addressInfo {
+    gap: 0.5rem;
+  }
+}
+
+.addressLabel {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #111827;
+}
+
+@media (min-width: 768px) {
+  .addressLabel {
+    font-size: 0.875rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .addressLabel {
+    font-size: 1rem;
+  }
+}
+
+.addressText {
+  font-size: 0.875rem;
+  color: #6b7280;
+  line-height: 1.625;
+}
+
+@media (min-width: 768px) {
+  .addressText {
+    font-size: 0.75rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .addressText {
+    font-size: 0.875rem;
+  }
+}
+
+.deliveryDate {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #f97316;
+  margin-top: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .deliveryDate {
+    font-size: 0.75rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .deliveryDate {
+    font-size: 0.875rem;
+  }
+}
+
+.itemsTitle {
+  font-size: 1rem;
+  color: black;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .itemsTitle {
+    font-size: 0.875rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .itemsTitle {
+    font-size: 1rem;
+  }
+}
+
+.itemContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.itemRow {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+.itemImage {
+  height: 3rem;
+  width: 4rem;
+  object-fit: contain;
+}
+
+@media (min-width: 768px) {
+  .itemImage {
+    height: 2.5rem;
+    width: 3rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .itemImage {
+    height: 3rem;
+    width: 4rem;
+  }
+}
+
+.itemDetails {
+  flex: 1;
+}
+
+.itemName {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: black;
+}
+
+@media (min-width: 768px) {
+  .itemName {
+    font-size: 0.75rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .itemName {
+    font-size: 0.875rem;
+  }
+}
+
+.moreItems {
+  font-size: 0.75rem;
+  color: #6b7280;
+  margin-top: 0.25rem;
+}
+
+.priceRow {
+  display: flex;
+  justify-content: space-between;
+  color: #374151;
+  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .priceRow {
+    font-size: 0.75rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .priceRow {
+    font-size: 0.875rem;
+  }
+}
+
+.priceRowGreen {
+  display: flex;
+  justify-content: space-between;
+  color: #16a34a;
+  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .priceRowGreen {
+    font-size: 0.75rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .priceRowGreen {
+    font-size: 0.875rem;
+  }
+}
+
+.amountHeader {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.amountLabel {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: black;
+}
+
+@media (min-width: 768px) {
+  .amountLabel {
+    font-size: 0.75rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .amountLabel {
+    font-size: 0.875rem;
+  }
+}
+
+.amountValue {
+  font-size: 1rem;
+  font-weight: 600;
+  color: black;
+}
+
+@media (min-width: 768px) {
+  .amountValue {
+    font-size: 0.875rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .amountValue {
+    font-size: 1rem;
+  }
+}
+
+.savingsCard {
+  color: white;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.savingsBackground {
+  object-fit: cover;
+}
+
+.savingsContent {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.celebrationIcon {
+  height: 1rem;
+  width: 1rem;
+  object-fit: contain;
+}
+
+.savingsText {
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  .savingsText {
+    font-size: 0.75rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .savingsText {
+    font-size: 0.875rem;
+  }
+}
+
+.disclaimer {
+  font-size: 0.6875rem;
+  color: #6b7280;
+  margin-top: 0.75rem;
+}
+
+@media (min-width: 768px) {
+  .disclaimer {
+    font-size: 0.75rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .disclaimer {
+    font-size: 0.6875rem;
+  }
+}
+
+.disclaimerLink {
+  color: #710B7C;
+  cursor: pointer;
+}
+
+.disclaimerLink:hover {
+  text-decoration: underline;
+}
+
+.paymentTitle {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: black;
+  margin-bottom: 0.75rem;
+}
+
+@media (min-width: 768px) {
+  .paymentTitle {
+    font-size: 0.75rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .paymentTitle {
+    font-size: 0.875rem;
+  }
+}
+
+.paymentInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+}
+
+@media (min-width: 768px) {
+  .paymentInfo {
+    font-size: 0.75rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .paymentInfo {
+    font-size: 0.875rem;
+  }
+}
+
+.paymentLabel {
+  color: #6b7280;
+}
+
+.paymentValue {
+  color: #111827;
+  font-weight: 500;
+}
+
+.buttonsDesktop {
+  display: none;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+@media (min-width: 1024px) {
+  .buttonsDesktop {
+    display: flex;
+  }
+}
+
+.buttonsPrimary {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  border: 2px solid #710B7C;
+  color: #710B7C;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  background: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 0.875rem;
+}
+
+.buttonsPrimary:hover {
+  background-color: #f3e8ff;
+  border-color: #6b21a8;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 6px rgba(113, 11, 124, 0.1);
+}
+
+.buttonsPrimary:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(113, 11, 124, 0.1);
+}
+
+.buttonsSecondary {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  color: white;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: linear-gradient(90deg, #6E0B78 0%, #B311C5 100%);
+  font-size: 0.875rem;
+}
+
+.buttonsSecondary:hover {
+  background: linear-gradient(90deg, #5a0962 0%, #9610a6 100%);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(110, 11, 120, 0.3);
+}
+
+.buttonsSecondary:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 6px rgba(110, 11, 120, 0.3);
+}
+
+.buttonsTablet {
+  display: none;
+  position: sticky;
+  bottom: 0;
+  background-color: white;
+  border-top: 1px solid #e5e7eb;
+  padding: 1.5rem;
+  box-shadow: 0px -4px 10px 0px #0000001A;
+}
+
+@media (min-width: 768px) {
+  .buttonsTablet {
+    display: block;
+  }
+}
+
+@media (min-width: 1024px) {
+  .buttonsTablet {
+    display: none;
+  }
+}
+
+.buttonsTabletContent {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.buttonsMobile {
+  display: block;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  border-top: 1px solid #e5e7eb;
+  padding: 1rem;
+  z-index: 50;
+  box-shadow: 0px -4px 10px 0px #0000001A;
+}
+
+@media (min-width: 768px) {
+  .buttonsMobile {
+    display: none;
+  }
+}
+
+.buttonsMobileContent {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.buttonMobile {
+  flex: 1;
+  font-size: 0.875rem;
+  padding: 0.75rem 1rem;
+}
