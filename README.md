@@ -48,15 +48,15 @@ MedCart-master/
 ├── public/                            # Static assets
 │   └── assets/
 │       ├── tick.png                  # Success checkmark icon
-│       ├── form.png                  # Prescription form icon
+│       ├── prescription.png          # Prescription form icon
 │       ├── celebration.svg           # Celebration animation asset
 │       ├── cart.svg                  # Shopping cart icon
 │       ├── logo.svg                  # Brand logo
 │       ├── arrow.svg                 # Navigation arrows
 │       ├── edit.svg                  # Edit action icon
 │       ├── login.svg                 # Login icon
-│       ├── +.svg                     # Add/plus icon
-│       ├── amount.png                # Price display icon
+│       ├── plus.svg                  # Add/plus icon
+│       ├── curve_design.png          # Price display icon
 │       └── dolo.png                  # Product image
 │
 ├── Configuration Files
@@ -88,8 +88,8 @@ Ensure you have the following installed on your machine:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/MedCart-master.git
-   cd MedCart-master
+   git clone https://github.com/yourusername/MedCart.git
+   cd MedCart
    ```
 
 2. **Install dependencies**
